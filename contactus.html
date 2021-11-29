@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Comox Sea Cadets</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">	<!--CSS-->
+</head>
+<body>
+<div class="container">		<!--Container for the content-->
+	<div class="navbar">		<!--nav-->
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="join.html">Join</a>
+			<a href="contactus.html">Contact Us</a>
+			<a href="cadetopportunities.html">Cadet Opportunities</a>
+			<a href="https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/cadets.html">Cadets Canada</a>
+			<a href="https://navyleague.ca/">Navy League Of Canada</a>
+			<img src="image.png" alt="Image" class="logo" width="50">		<!--Logo-->
+		</nav>
+	</div>
+
+	<div class="main">
+		<header>
+			<img src="image.png" alt="Image" width="920" height="300"> 	<!--I was not able to get the proper images for the website in time so I got a royalty free image icon.-->
+			<h2>Contact Us</h2>	<!--Title-->
+		</header>
+		<div>
+			<p>Our physical address is: End of Hawkins Road on Goose Spit in Comox (HMCS Quadra)<br>PH 250-890-3500 on Tuesday nights from 1800-2100 (6-9 PM)<br>Box 1448 Comox Ave., Comox, B.C. V9M 7Z9</p>
+			<h3>Directions:</h3>
+			<!--The line of code below was aquired from google maps-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1535.5831338406426!2d-124.91044169561691!3d49.66310347912061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54881337623e4cbb%3A0x282b4428a4e3ff6e!2sRoyal%20Canadian%20Sea%20Cadets%20-%20Port%20Augusta!5e0!3m2!1sen!2sca!4v1638167496528!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			<br>
+			<p>For more information contact Commanding Officer Lt Cdr Don Irwin Donald.Irwin@cadets.gc.ca PH 250-751-9626 189 Facebook Page: 189 Port Augusta Sea Cadets/Comox Valley Navy League (public page) Closed Facebook Page (for members only) is 189 Port Augusta Navy League of Canada Comox Branch Box 1392 Comox Ave., Comox, B.C. V9M 7Z9 For more information contact Branch President Tracey Court 250-218-6174 Facebook page: Navy League of Canada Comox Branch.</p>
+			<br>
+			<br>
+			<div class="wrapper-form">
+				<h3>Contact Form</h3>
+				<form method="post" action="received.html">
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="firstname" placeholder="Ex: Mike">
+
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Ex: Smith">
+
+					<label for="email">Email <span class="label-required">* (required)</span></label>
+					<input type="email" id="email" name="email" placeholder="Ex: mike@yahoo.com" required>
+
+					<label for="purpose">Purpose of Message</label>
+					<select id="purpose" name="purpose">
+					<option value="corps">Questions About The Corps</option>
+					<option value="cadets">Questions About Sea Cadets</option>
+					<option value="other">Other</option>
+					</select>
+
+					<fieldset>
+					<legend>Are you a current Cadet?:</legend>
+					<input type="radio" id="yes" name="term" value="Yes">
+					<label for="yes">Yes</label><br>
+					<input type="radio" id="no" name="term" value="No">
+					<label for="no">No</label><br>
+					<input type="radio" id="anon" name="term" value="Anonymous">
+					<label for="anon">Anonymous</label>
+					</fieldset>
+
+					<label for="message">Message</label>
+					<textarea id="message" name="message" placeholder="Please type your message here" style="height:200px"></textarea>
+
+					<div class="wrapper-button">
+					<input type="reset" value="Reset">
+					<input type="submit" value="Submit">
+					</div>
+				</form>
+			</div>
+			<br>
+			<br>
+			<h3>Corps Staff</h3>
+			<p>Commanding Officer: LtCdr(N) Don Irwin</p>
+			<p>Executive Officer: Capt Christel Davidson</p>
+			<p>Training Officer: SLt Meighan Hygaard</p>
+			<p>Civilian Volunteers: Mr. Bob Sackett, Mrs. Khrissie Strachan, Mr. Nick Turnham (pending CI)</p>
+		</div>
+	</div>
+</div>
+<div class="footer">		<!--Footer-->
+	<footer>
+		<a href="home.html">Home</a> <br>	<!--alternative links to pages-->
+		<a href="join.html">Join</a> <br>
+		<a href="contactus.html">Contact Us</a> <br>	
+		<a href="cadetopportunities.html">Cadet Opportunities</a> <img src="image.png" alt="Footer logo" style="float:right" width="100"> <br>	<!--Footer logo-->
+		<a href="https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/cadets.html">Cadets Canada</a> <br>	
+		<a href="https://navyleague.ca/">Navy League Of Canada</a>
+		<br>
+		<h6>This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.</h6>
+	</footer>
+</div>
+
+</body>
+</html>
